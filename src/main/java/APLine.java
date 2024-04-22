@@ -12,7 +12,7 @@ public class APLine
     return slope;
   }
   private boolean isOnLine(int x, int y){
-    return ((a*x+b*x-c)==0);
+    return ((aVal*x+bVal*x-cVal)==0);
   }
   
 }
