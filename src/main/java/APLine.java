@@ -2,7 +2,7 @@ public class APLine
 {
   private int aVal, bVal, cVal;
   private double slope;
-  public APClass(int a, int b, int c){
+  public APLine(int a, int b, int c){
     aVal = a;
     bVal = b;
     cVal = c;
