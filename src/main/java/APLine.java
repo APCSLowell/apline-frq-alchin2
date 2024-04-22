@@ -6,7 +6,7 @@ public class APLine {
         aVal = a;
         bVal = b;
         cVal = c;
-        slope = -(double) a / (double) b; // Corrected slope calculation
+        slope = -(double) a / (double) b; 
     }
 
     public double getSlope() {
@@ -14,6 +14,6 @@ public class APLine {
     }
 
     public boolean isOnLine(int x, int y) {
-        return (aVal * x + bVal * y - cVal) == 0; // Corrected calculation
+        return (aVal * x + bVal * y - cVal) == 0; 
     }
 }
