@@ -6,7 +6,7 @@ public class APLine
     aVal = a;
     bVal = b;
     cVal = c;
-    slope = (double)-a/(double)b);
+    slope = (double)-a/(double)b;)
   }
   public double getSlope(){
     return slope;
